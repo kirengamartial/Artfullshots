@@ -1,0 +1,89 @@
+
+/* in this media querries we can define then allour style 
+/* this one will target like the ipad and all small computers and i will define this as 1200and the reason for this is that our row that you surely remember was defined as 1140px and so i want the website to change it's look when it gets  close to that value so that we always have some margin at the right and left side */
+/* Big tablet to 1200px (width smaller than 1140px row)*/
+/* we will basically for each breakpoint view the page and fix everything that looks broken so let's start to reduce the browser width*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        /* it's not i don't want the width to be fixed anymore i just want to be 100%*/ 
+        width: 100%;
+       /* in order to create some space then between the text and the border of the browser we don't need to save it because we have the auto save extension */
+       padding: 0 2%;
+    }
+    .row {
+        /* we are going to format it a little bit diferently than from what i have done before because every time we only have one declaration in block we don't need to create all those lines and u can do it when your code to look cleaner */  
+        padding: 0 2%;
+    }
+    
+
+}
+
+
+
+
+/* this will target the ipad in the portrait mode which has 768px and the reason the value down here is that the ipad in the landscape view has 1024 px and that will be in the next media querry */
+/*Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+ /* now that we defined all font-sizes across the entire webpage in percentages which means that all font sizes are base on the base font size and it was 20 and now is 18 and all the font sizes will decrease and another thing we should surely do since now we are smaller devices is to change the padding of the sections and this was 80px at the top and bottom and i will take it down to 60px */
+ body { font-size: 17px;}
+ section { padding: 60px 0;}
+ .long-copy {
+    width: 80%;
+    margin-left: 10%;
+    }
+.steps-box:first-child {margin-top: 10px;}
+.steps-box:last-child {margin-top: 10px;}
+.works-step { margin-bottom: 40px;}
+.works-step:last-of-type {margin-bottom: 60px;}
+.app-screen { width: 50%;}
+.icon-small {
+    margin-right: 5px; 
+    width: 17px;
+}
+.city-feature { font-size: 90%;}
+.plan-box {
+    width: 100%;
+    margin-left: 0%;
+}
+.plan-price { font-size: 250%;}
+.contact-form { width: 80%;}
+}
+
+/* small phones to small tablets: from 481px to 767px */
+/* media for large small phones and this means also that rules that will apply for all the browser widths which are less or equal to 767 and this value is because of the widths of the ipad is 768 so we want this media querry to target all the phones which are smaller than ipad and the next media querry target the ipad and ofcourse other tablets as well */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px;}
+    section { padding: 30px 0;}
+    .row,
+    .hero-text-box { padding: 0 4%;}
+    .col {
+        width: 100%;
+        margin: 0 0 1% 0;
+    }
+    .main-nav  { display: none;}
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%;}
+    .long-copy {
+         width: 100%;
+         margin-left: 0%;
+        }
+   .app-screen { width: 40%;}
+    .steps-box:first-child{text-align: center;}
+   
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    .works-step  { margin-bottom: 20px;}
+    .works-step:last-of-type { margin-bottom: 20px;}
+}
+/*small iphones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+/*all our files  go inside of this declaration-block and these means that these rules which will come in here will apply when the width of the device  or the browser is less or equal than 480px and this is the width of the old iphones like 5,4*/
+section { padding: 25px 0;}
+.contact-form { width: 100%;}
+}
+

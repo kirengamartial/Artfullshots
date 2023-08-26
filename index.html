@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- lang attribbute helps to put our webpage in any language and we choose english by en-->
+<html lang="en">
+    <head>
+<!-- this is essential when i make responsive design  and it is meta tag and all this down will do is to tell the mobile phones for instance that they should not zoom out the page so that they should always start with the sscale of 1 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- this link helps to put our webpage in normal way meaning like other website and you download it from normalise css in browser-->
+<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+<!-- this link helps to put imformation in columns and you download it from browser-->
+<link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+<!-- this link helps to link the link we downloaded from ionicon and it helps to putdifferent icon-->
+<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+<!-- this link heps to link or connect out css file-->
+<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+<!--this link is for querries to make our website responsive-->
+<link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+<!--this one also is for our fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
+<title>omnifood</title>
+
+    </head>
+<body>
+  <!-- header is where we put our logo, navigation, hero image,the main heading and those buttons that we have seen in the image. the header element works basically like a usually div element which means that is a container to put some content there other elements like that like nav for navigation ,the footer element for the footer ,the main element for the man content by using header element instead of simle div we tell search engines such as google this is our header and not some div element with no meaning  -->
+    <header>
+<nav>
+<!-- to center everything inside of this navigation i will use a row and row will always will be centered because normalise and grid file -->
+<div class="row">
+    <img src="resources/css/images/Logo@2x.png" alt="omnifood logo" class="logo">
+    <!-- navigation is usually done using a so called unordered list and unordered list is just like some bullet points where each bullet point will be an element of navigation and UL stands for un ordered list -->
+<ul class="main-nav">
+    <!-- for each element inside an ordered list we say li which means list elements and each of the list elements will be a link because navigation is all about and navigaton is like a collection of links  -->
+    <li> <a href="#">Home</a></li>
+    <li> <a href="#">Explore</a></li>
+    <li> <a href="#">License</a></li>
+    <li> <a href="login.html">Login</a></li>
+    <li> <button><a href="#">Join</a></button></li>
+</ul>
+</div>
+</nav>
+
+<!--we w'll have a vertically and horizontally centered container where our headline will be and this is a div element for our container we call it hero text box because this is a text box which floats over a hero image which the big background image -->
+      <div class="hero-text-box">
+<h1>Get every Image</h1>
+<h2>with just a click</h2>
+<a class="btn btn-ghost" href="#">Explore our library </a>
+        </div>
+</header>
+ 
+ 
+</body>
+
+
+
+</html>

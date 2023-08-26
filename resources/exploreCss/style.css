@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#464F3F, #1e201c);
+    height: 100vh;  
+   
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    list-style:none
+    
+}
+.logo {
+height: 50px;
+
+}
+
+.main-nav li {
+    display: inline-block;
+    padding-right: 10px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    transition: border 0.2s;
+    
+}
+.main-nav li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+.search {
+    border-radius: 13px;
+   border: 1px solid #a8a7a7;
+   padding-top: 10px;
+   padding-bottom: 6px;
+   padding-right: 320px;
+}
+input {
+    color: black;
+}
+.main-nav li img {
+    display: inline-block;
+    height: 40px;
+    margin-left: 12px;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    width: 150px;
+    margin: 0 auto;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+main div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+main div img {
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+}

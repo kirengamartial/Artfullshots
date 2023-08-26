@@ -33,10 +33,12 @@ img {
 
 input {
    border-radius: 4.5px;
-   border: 1px solid ;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: 1px solid #a8a7a7;
 }
 .btn {
     padding: 10px 75px ;
     border-radius: 4.5px;
-    border: 1px solid;
+    border: 1px solid #a8a7a7;
 }

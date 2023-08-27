@@ -10,7 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
 
-<link rel="stylesheet" type="text/css" href="resources/signupCss/style.css">
+<link rel="stylesheet" type="text/css" href="resources/loginCss/style.css">
 
 <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 
@@ -24,32 +24,24 @@
     </head>
 <body>
  
- <form action="">
+ <form action="/api/auth/login" method="post" id="login">
     <div class="container">
         <p>Sign in to</p>
-        <a href="index.html"> <img src="resources/css/images/logo1.png" alt="ArtullShot"></a>
-       
+        <a href="index.html"><img class="logo" src="resources/css/images/logo1.png" alt="ArtfullShot"></a>
+      
         <div class="input-group">
-            <label for="username" class="label">Name</label>
-            <input type="text" name="" id="username">
+            <label for="email" class="label">Username</label>
+            <input type="text" name="username" id="email">
         </div>
-        <div class="input-group">
-            <label for="email" class="label">Email</label>
-            <input type="email" name="" id="email">
-        </div>
-        
        <div class="input-group">
-        <label for="password" class="label">password</label>
-        <input type="password" name="" id="password">
+        <label for="password" class="label">Password</label>
+        <input type="password" name="password" id="password">
        </div>
-       <button type="submit" class="btn">Sign up</button>
+       <button type="submit" class="btn">Sign in</button>
     </div>
-    
-       
-    
-  
+    <p>Don't have an account?<a href="/register">sign up</a></p>
  </form>
- 
+ <script src="./js/index.js"></script>
 </body>
 
 

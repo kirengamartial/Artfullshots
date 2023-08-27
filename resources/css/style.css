@@ -71,10 +71,6 @@ h2 {
 
 
 }
-h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
-}
 
 
 /*--------------paragraphs----------------------*/
@@ -90,32 +86,8 @@ margin-bottom: 30px;
     font-size: 90%;
     line-height: 145%;
 }
-/* this way of showing of what you are going to style is inceredily importnant*/
-/*-----------icons--------*/
 
-/* this is an icon font so you can set it's font size */
-.icon-big {
-font-size: 350%;
-/* this will force a line break*/
-display: block;
-color: #e67e22;
-margin-bottom: 10px;
-}
 
-.icon-small {
-    display: inline-block;
-    width: 30px;
-    text-align: center;
-    color: #e67e22;
-    font-size: 120%;
-    margin-right: 10px;
-    /*secrets to align text  and icons*/
-    line-height:120% ;
-    vertical-align: middle;
-    /* - margin does ecactly the oppisite thing than a psitive margin so a positive margin gives us space and a negative margin is kind of ,takes space away and this will pull our icons to the top two pixels */
-margin-top: -5px; ;
-
-}
 /*----links------*/
 /* now we gona format all links at the same time and we gona use the a because that's the most generic links and we specify the link and the active state */
 a:link,

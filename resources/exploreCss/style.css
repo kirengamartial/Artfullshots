@@ -95,6 +95,6 @@ main div img {
     transform: scale(1);
 }
 main div img:hover {
-   
+    cursor: pointer;
     transform: scale(1.10);
 }

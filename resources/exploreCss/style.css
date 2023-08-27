@@ -44,9 +44,12 @@ height: 50px;
     display: inline-block;
     margin-top: 10px;
     font-size: 16px;
+    cursor:pointer;
 
 }
-
+.main-nav li img {
+    cursor: pointer;
+}
 .search {
     border-radius: 13px;
    border: 1px solid #a8a7a7;

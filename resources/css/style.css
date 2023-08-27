@@ -26,17 +26,6 @@ body {
     overflow-x: hidden;
 }
 
-.clearfix {zoom: 1;}
-.clearfix::after {
-
-    content: '.';
-    clear:both;
-    height: 0;
-    display: block;
-    visibility: hidden;
-
-    
-}
 
 
 /*---------------------------------------------------------------------------------------------------------*/
@@ -49,17 +38,11 @@ body {
     margin: 0 auto;
 }
 
-section {
-padding: 80px 0;
-}
- 
-.box {
+ .box {
     padding: 1%;
 }
 
 /*-----HEADINGS------------*/
-
-
 
 
 h1,h2,h3 {
@@ -264,4 +247,5 @@ header {
 
         border-bottom: 2px solid #e67e22;
      }
+    
     

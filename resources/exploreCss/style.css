@@ -89,4 +89,9 @@ main div img {
     line-height: 200px;
     border-radius: 20px;
     margin: 10px;
+    transform: scale(1);
+}
+main div img:hover {
+   
+    transform: scale(1.10);
 }

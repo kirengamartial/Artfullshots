@@ -12,6 +12,7 @@ router.post('/', function(req, res, next) {
 	var personInfo = req.body;
 
 
+	
 	if(!personInfo.email || !personInfo.username || !personInfo.password || !personInfo.passwordConf){
 		res.send();
 	} else {
@@ -109,8 +110,8 @@ router.get('/logout', function (req, res, next) {
 }
 });
 
-router.get('/forgetpass', function (req, res, next) {
-	res.render("forget.ejs");
+router.get('/signup', function (req, res, next) {
+	res.render("Signup.ejs");
 });
 
 router.post('/forgetpass', function (req, res, next) {

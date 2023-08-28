@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to bottom right, #464F3F, #8fa080);
+    background-image: linear-gradient(#464F3F, #1e201c);
     height: 100vh;  
    
     background-size: cover;
@@ -20,12 +20,19 @@ form {
    min-height: 100vh;
    margin-top: auto;
  justify-content: center;
- flex-direction: column;
+flex-direction: column;
+ 
+ 
 }
 .container {
     background-color: rgba(255, 255, 255, 0.877);
-    padding: 50px;
+    padding: 40px;
     border-radius: 10px;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.container p {
+    margin-bottom: 20px;
 }
 img {
     height: 52px;
@@ -38,9 +45,10 @@ img {
 
 input {
    border-radius: 4.5px;
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
    border: 1px solid #a8a7a7;
+   padding-left: 10px;
 }
 .btn {
     padding: 10px 75px ;
@@ -51,4 +59,15 @@ input {
 a {
     text-decoration: none;
     color: blue;
+}
+/* .image {
+    margin-top: 2.8px;
+    height: 458px;
+    margin-left: -20px;
+    width: 300px;
+    border-radius: 10px;
+    
+} */
+button {
+    cursor: pointer;
 }

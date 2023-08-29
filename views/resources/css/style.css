@@ -83,8 +83,6 @@ margin-bottom: 30px;
 
 
 /*----links------*/
-/* now we gona format all links at the same time and we gona use the a because that's the most generic links and we specify the link and the active state */
-a:link,
 a:visited {
     color:#e67e22;
     text-decoration: none;
@@ -149,7 +147,6 @@ header {
    
     background-size: cover;
     background-position: center;
- /*a very cool effect that we can achieve with background images in css and this is like our background image always stays in the same place and we scroll our website and the image stays always in the same place  */
  background-attachment: fixed;
 
     }
@@ -180,13 +177,13 @@ header {
         margin-top: 30px;
      
     } 
-    /*in order to format our an ordered list bcs this nav is an ordered list and we get rid of those bullet points*/ 
+  
     .main-nav {
         float: right;
         list-style:none ;
         margin-top: 55px;
     }
-    /*this is how we select all li element and we want to change the way there are displayed bcs there are block elements and we want them to be inline blocksso that they can be side by  side and we want some margin between them  */
+  
     .main-nav li {
         display: inline-block;
         margin-left: 40px;
@@ -209,9 +206,15 @@ header {
 }
      .main-nav li a:hover,
      .main-nav li a:active {
-/* in order this to happen we need this border to exist before we hover it but since we don't want to see it we make it transparent*/
+
 
         border-bottom: 2px solid #e67e22;
      }
     
     
+
+     @media screen and (max-width: 606px) {
+       .main-nav li{
+        display: none;
+       }
+      }

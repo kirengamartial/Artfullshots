@@ -213,8 +213,87 @@ header {
     
     
 
-     @media screen and (max-width: 606px) {
+     @media screen and (max-width: 766px) {
        .main-nav li{
         display: none;
        }
       }
+     @media screen and (min-width: 766px) {
+       .logo2 {
+        display: none;
+       }
+     .primary-navigation {
+        display: none;
+     }
+      }
+
+      @media screen and (max-width: 766px) {
+        .primary-navigation{
+            float: right;
+            margin-right: 20px;
+            margin-top: -180px;
+            font-size: 16px;
+            padding: 120px 0 0 0;
+            text-align: center;
+        }
+      .logo2{
+        height: 70px;
+        width: 70px;
+        
+      }
+      .primary-navigation li {
+        list-style: none;
+        margin: 0 auto;
+        display: inline-block;
+        padding: 0 30px;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+      }
+      .primary-navigation li ul {
+        visibility: hidden;
+      opacity: 0;
+      position: absolute;
+padding-left: 0;
+      left: 0;
+      display: none;
+      background: white;
+      }
+
+      .primary-navigation li:hover > ul,
+    .primary-navigation li ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 250px;
+      padding-right: 10px;
+      margin-right: 20px;
+      background: linear-gradient(#464F3F, #1e201c);
+      text-align: left;
+      padding-top: 20px;
+      box-shadow: 0px 0px 0px -1px #ccc;
+    }
+    .primary-navigation li ul li {
+        clear: both;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+        border-style: none;
+      }
+      .primary-navigation li ul li a:hover {
+        padding-left: 10px;
+        border-left: 2px solid #3ca0e7;
+        transition: all 0.3s ease;
+        color: #FFA91B;
+      }
+    .primary-navigation li ul li a {
+        text-decoration: none;
+        color: white;
+
+       
+    }
+    .primary-navigation li ul li a {
+        transition: all 0.5s ease;
+    }
+       }
+ 

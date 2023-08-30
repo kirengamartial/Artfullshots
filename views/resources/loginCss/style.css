@@ -62,13 +62,3 @@ button {
     cursor: pointer;
 }
 
-
-@media screen and (max-width: 296px) {
-  .container {
-   padding: 0px -60px;
-    
-  }
-form {
-    margin: 0 20px;
-}
-   }

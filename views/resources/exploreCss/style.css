@@ -103,3 +103,38 @@ main div img:hover {
     display: inline-block;
     margin-top: -10px;
 }
+
+
+
+@media screen and (max-width: 766px) {
+    .row {
+        display: none;
+    }
+    .small {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .logo2 {
+        height: 60px;
+        width: auto;
+        display: inline-block;
+    }
+    .image {
+        height: 50px;
+        width: auto;
+        margin-top: 5px;
+    }
+    small a {
+        text-decoration: none;
+    }
+    
+   }
+  @media screen and (min-width: 766px) {
+  .small {
+    display: none;
+  }
+   }
+
+
+ 
